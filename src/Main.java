@@ -41,7 +41,7 @@ final class StudentGroup {
 record Student(String name, int age) { }
 
 public class Main {
-    //Прости меня
+    
     public static List<Student> sortByName(List<Student> students) {
         students.sort(new Comparator<Student>() {
             @Override
